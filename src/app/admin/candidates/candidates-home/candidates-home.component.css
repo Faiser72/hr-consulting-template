@@ -1,0 +1,25 @@
+.card-size{
+    width: 18rem;
+}
+
+.img-size{
+    width: 3rem;
+   
+}
+
+.main-bg{
+    color: var(--main-bg-1-color);
+}
+
+
+.onhover:hover{
+    cursor: pointer;
+    border: var(--main-bg-1-color);
+    /* border-color: var(--main-bg-1-color);; */
+    color: var(--main-bg-1-color);
+}
+
+mat-divider{
+    margin-top: 20px;
+    
+}

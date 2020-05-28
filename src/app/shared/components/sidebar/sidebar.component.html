@@ -1,0 +1,51 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <img src="assets/img/user.png" alt="{{currentUserAvatar}}" class="my-3">
+        <div class="header">
+            <h5>{{currentUserName}}</h5>
+            <h6>hr.admin@vhr.com</h6>
+        </div>
+
+    </div>
+
+    <mat-divider></mat-divider>
+    <h2 matSubheader>Pages</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/home/dashboard'>
+        <mat-icon>dvr</mat-icon>Dashboard
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/home/posts'>
+        <mat-icon>notifications</mat-icon>Posts
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/home/candidatehme'>
+        <mat-icon>school</mat-icon>Candidates
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/home/companyhme'>
+        <mat-icon>domain</mat-icon>Companies
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/home/jobshme'>
+        <mat-icon>business_center</mat-icon>Jobs
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/home/usershme'>
+        <mat-icon>people</mat-icon>Users
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/home/interviewhme'>
+        <mat-icon>flash_on</mat-icon>Interviews
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/home/invoicehme'>
+        <mat-icon>library_books</mat-icon>Invoice
+    </a>
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader> Tools</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/'>
+        <mat-icon>import_contacts</mat-icon>
+        Contacts
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/'>
+        <mat-icon>contact_phone</mat-icon>
+        Leads
+    </a>
+    another menu
+</mat-nav-list>

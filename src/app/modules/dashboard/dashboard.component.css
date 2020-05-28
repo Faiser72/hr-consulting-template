@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+:root {
+  /* Brand Logo Color */
+  --main-brand-color: #bd9a36;
+  /* Background Colors */
+  --main-bg-1-color: #3f51b5;
+  --main-bg-2-color: #ee436e;
+  --main-bg-3-color: #0b2239;
+  /* Fonts Families*/
+  --main-font-1-family: "Montserrat", sans-serif;
+  /* Fonts Colors*/
+  --main-font-1-color: #ffffff;
+  --main-font-2-color: #000000;
+  --main-font-3-color: #3f51b5;
+  --main-font-4-color: #ee436e;
+  /* Tiles */
+  --main-tile-1-color: #382f9c;
+  --main-tile-2-color: #f4f4f4;
+}
+
+.dashboard {
+  margin: 0px;
+}
+
+.tiles {
+  min-width: 200px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 7px 19px -6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 2px 7px 19px -6px rgba(0, 0, 0, 0.24);
+  box-shadow: 2px 7px 19px -6px rgba(0, 0, 0, 0.24);
+}
+
+.calendarBody {
+  vertical-align: middle;
+}
+
+.date-input {
+  max-width: 120px;
+  border: 0px;
+}
+
+.date-input:focus {
+  outline: 0;
+}
+
+.eventDisplay {
+  margin-top: -120px;
+}
+
+.tiles .card-title {
+  color: var(--main-font-3-color);
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: 0;
+  color: var(--main-font-3-color);
+  outline: 0;
+}
+
+.count {
+  text-align: center;
+  font-size: 58px;
+  font-weight: 400;
+  color: var(--main-bg-2-color);
+}
+
+.card-text {
+  color: gray;
+  font-size: 14px;
+}
+
+.upcomingEvents {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 10px;
+  -webkit-box-shadow: 2px 7px 19px -6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 2px 7px 19px -6px rgba(0, 0, 0, 0.24);
+  box-shadow: 2px 7px 19px -6px rgba(0, 0, 0, 0.24);
+}
+
+.recentActivities {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 10px;
+  -webkit-box-shadow: 2px 7px 19px -6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 2px 7px 19px -6px rgba(0, 0, 0, 0.24);
+  box-shadow: 2px 7px 19px -6px rgba(0, 0, 0, 0.24);
+}
+
+.upcomingEvents .title,
+.recentActivities .title {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}

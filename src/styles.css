@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+:root {
+  /* Brand Logo Color */
+  --main-brand-color: #bd9a36;
+  /* Background Colors */
+  --main-bg-1-color: #3f51b5;
+  --main-bg-2-color: #ee436e;
+  --main-bg-3-color: #0b2239;
+  /* Fonts Families*/
+  --main-font-1-family: "Montserrat", sans-serif;
+  /* Fonts Colors*/
+  --main-font-1-color: #ffffff;
+  --main-font-2-color: #000000;
+  --main-font-3-color: #3f51b5;
+  --main-font-4-color: #ee436e;
+  /* Tiles */
+  --main-tile-1-color: #382f9c;
+  --main-tile-2-color: #f4f4f4;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font-1-family);
+}

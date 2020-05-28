@@ -1,0 +1,39 @@
+/* .material-icons {
+    display: inline;
+}
+
+input[type], textarea, select{
+    width: 50%;
+    float: right;
+}
+button{
+    width: 14%;
+    float: initial;
+}
+#profile{
+    margin-top: -104%;
+    margin-right: 17%;
+    float:right;
+}
+
+#file-upload{
+    width: 86%;
+}
+
+.save-btn, .reset-btn{
+    font-size: 14px;
+} */
+
+.main-bg{
+    color: var(--main-bg-1-color);
+}
+
+.customhover input:hover{
+    border: 1px black solid;
+    border-color: var(--main-bg-1-color);
+
+}
+
+.customhover label{
+    font-weight: bolder;
+}

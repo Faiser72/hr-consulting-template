@@ -1,0 +1,34 @@
+
+   
+    <div class="container-fluid">
+    <div class="card-deck " (click)='routetoaddcandidates()'>
+      <!-- Add candidates -->
+        <div class="card shadow onhover">
+          <h6 class="pl-1 pt-1 main-bg font-weight-bold">No of Candidates:{{candidatesCount}}</h6>
+          <div class="card-img">
+            <img src="assets/img/candidates/add.png" alt="adduder" class="img-size m-2">
+          </div>
+          <div class="card-title "> <h3 class="text-center text-uppercase"> Add Candidates</h3></div>
+        </div>
+
+        <!-- Edit candidates -->
+        <div class="card shadow onhover">
+          <h6 class="pl-1 pt-1 main-bg font-weight-bold">No of Candidates:{{candidatesCount}}</h6>
+          <div class="card-img">
+            <img src="assets/img/candidates/edit.png" alt="adduder" class="img-size m-2">
+          </div>
+          <div class="card-title"><h3 class="text-center text-uppercase"> Edit</h3></div>
+        </div>
+
+        <!-- Delete candidates -->
+        <div class="card shadow onhover">
+          <h6 class="pl-1 pt-1 main-bg font-weight-bold">No of Candidates:{{candidatesCount}}</h6>
+          <div class="card-img">
+            <img src="assets/img/candidates/delete.png" alt="adduder" class="img-size m-2">
+          </div>
+          <div class="card-title"><h3 class="text-center text-uppercase"> Delete</h3></div>
+        </div>
+    </div>
+</div>
+<mat-divider></mat-divider>
+<router-outlet></router-outlet>

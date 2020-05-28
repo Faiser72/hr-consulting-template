@@ -1,0 +1,77 @@
+<div class="dashboard">
+	<!-- Counts Tiles Starts -->
+	<div class="row d-flex justify-content-between">
+		<div class="col-sm-2 mb-3 mr-2">
+			<div class="card tiles">
+				<div class="card-body">
+					<h6 class="card-title title">Total Companies</h6>
+					<p class="count">{{companiesCount}}</p>
+					<p class="card-text">Active: {{activeCompaniesCount}}</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-2 mb-3 mr-2">
+			<div class="card tiles">
+				<div class="card-body">
+					<h6 class="card-title title">Total Candidates</h6>
+					<p class="count">{{candidatesCount}}</p>
+					<p class="card-text">Active: {{activeCandidatesCount}}</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-2 mb-3 mr-2">
+			<div class="card tiles">
+				<div class="card-body">
+					<h6 class="card-title title">Total Interviews</h6>
+					<p class="count">{{interviewsCount}}</p>
+					<p class="card-text">Active: {{activeInterviewsCount}}</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-2 mb-3 mr-2">
+			<div class="card tiles">
+				<div class="card-body">
+					<h6 class="card-title title">Total Jobs</h6>
+					<p class="count">{{jobsCount}}</p>
+					<p class="card-text">Active: {{activeJobsCount}}</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 mb-3 calendar">
+			<div class="card tiles">
+				<div class="card-body calendarBody text-center">
+					<h6 class="card-title title">Events</h6>
+					<input matInput [matDatepicker]="picker" placeholder="Choose a date" class="date-input mx-auto">
+					<mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+					<mat-datepicker #picker></mat-datepicker>
+					<!-- <p>{{events}}</p> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Counts Tiles Ends -->
+
+	<mat-divider></mat-divider>
+
+	<div class="row d-flex justify-content-between">
+		<div class="col-sm-6 my-3">
+			<div class="upcomingEvents">
+				<h3 class="title">Upcoming Events</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nesciunt veniam beatae! Numquam odio
+					fugit
+					ad repudiandae doloremque tempore quasi accusamus consequuntur cupiditate! Quam rem earum nam, asperiores
+					atque voluptas!</p>
+			</div>
+		</div>
+		<div class="col-sm-6 my-3">
+			<div class="recentActivities">
+				<h3 class="title">Recent Activites</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nesciunt veniam beatae! Numquam odio
+					fugit
+					ad repudiandae doloremque tempore quasi accusamus consequuntur cupiditate! Quam rem earum nam, asperiores
+					atque voluptas!</p>
+			</div>
+		</div>
+	</div>
+</div>
